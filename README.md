@@ -11,10 +11,11 @@ Ho pensato di partire da un html vuoto per cercare di mettere in pratica quante 
 Sono partito dall'idea di emulare un counter "vecchio stile" sono andato a ritrovare i box e gli alert dei vecchi windows e ho cercato di ricreare nella maniera più verosimile quello stile, per poi "aggiornare" il tutto e rendere il counter più moderno sia come stile che come funzionlità aggiungendo oltre al +/- anche un +10/-10.
 Nel creare questi ultimi due tasti li ho annidati per fare una prova di come si gestiscono gli eventi bubbling.
 
-Puoi usare il counter a questo [Link](https://mattiaprincipe.github.io/counter/)
 
+Puoi usare il counter tramite questi link:
 
-
+- [GitHub Pages](https://mattiaprincipe.github.io/counter/).
+- [Netlify](https://counterprincipemattia.netlify.app/).
 
 # Altri Progetti
 
