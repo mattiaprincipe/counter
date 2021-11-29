@@ -1,0 +1,154 @@
+:root {
+    --bg: #101010;
+    --controlBG : #1d1d1d ;
+    --bg2 : #303030 ;
+    --primary : #FF9500 ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+}
+button{
+    font-family: 'Microsoft Sans Serif', sans-serif;
+    border-width:3px;
+    border-style:solid;
+    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+}
+@keyframes moveDialog {
+    from {}
+    to {transform: translate(-50%, 80px);}
+}
+@keyframes moveButton {
+    from {}
+    to {transform: translate(-50%, 160px);}
+}
+@keyframes setBG {
+    from {}
+    to {background: var(--bg);}
+}
+@keyframes setBG2 {
+    from {}
+    to {background: var(--bg2);}
+}
+@keyframes counterContainer {
+    from {}
+    to {
+        border: 2px solid var(--bg2);
+        background-color: var(--bg2);
+        border-radius: 20px;
+        padding: 80px;
+        height: 470px;
+        width: 350px;
+    }
+}
+@keyframes counterPlusMinus {
+    from {}
+    to {
+        z-index: 2 !important;
+        box-shadow: 1px 1px 10px var(--bg);
+        border-left: 0px solid black;
+        font-size: 40px;
+        line-height: 100px;        
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-left: 25%;
+        background-color: var(--primary);
+        color: white;
+        top: 35%;
+        transform: translate(-50%, -50%);
+        padding-top: 5px;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+@keyframes counterPlusMinus2 {
+    from {opacity: 0;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    to {opacity: 1;
+        margin-left: 30px;
+        margin-top: 15px;
+    background-color: var(--primary);}
+}
+@keyframes counterNum {
+    from {}
+    to {font-size: 150px;
+        color: white;
+        background-color: var(--bg2);
+        margin-top: 20px;
+        border: none;}
+}
+@keyframes counterControls {
+    from {}
+    to {
+        background-color: var(--controlBG);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 100%;
+        height: 45%;
+    
+    }
+}
+@keyframes counterTitle {
+    from {}
+    to{ 
+        width: fit-content;
+        border: none;
+        background: none;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+    }
+    
+}
+@keyframes increase{
+    from {opacity: 0;
+        font-size: 15px;
+        transform: translate(-50%, -15%);
+        position:absolute;
+        top: 50%;
+        left:50%;
+        color: white;}
+    to {
+        font-size: 15px;
+        transform: translate(-50%, -15%);
+        opacity: 1;
+        position:absolute;
+        top: 50%;
+        left:50%;
+        color: white;
+    }
+}
+/*mobile view*/
+@media screen and (max-width: 468px) {
+    @keyframes counterContainer {
+        from {}
+        to {
+            border: 0px solid black;
+            background-color: var(--bg2);
+            border-radius: 20px;
+            padding: 80px;
+            height: 90%;
+            max-height: 470px;
+            width: calc(100% - 20px);
+            max-width: 350px;
+        }
+    }
+    @keyframes moveDialog {
+        from {}
+        to {transform: translate(-50%, 20px);}
+    }
+    @keyframes moveButton {
+        from {}
+        to {transform: translate(-50%, 160px);}
+    }
+}
