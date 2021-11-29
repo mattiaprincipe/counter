@@ -1,5 +1,4 @@
-# Counter
-## Realizzato da Principe Mattia
+# Progetto Counter di Principe Mattia
 
 Ciao a tutti 👋🏼, scrivo questo testo per illustrarvi nel modo piu semplice le caratteristiche del progetto.
 Ho pensato di partire da un html vuoto per cercare di mettere in pratica quante più cose possibili tra quelle che abbiamo studiato nel corso, ho creato tutti gli elementi con javascript agganciandoli man mano al DOM per poi applicare loro gli stuli CSS sempre sotto forma di .CSStext su JS l'unica cosa che ho gestito su CSS sono:
