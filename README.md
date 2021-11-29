@@ -13,6 +13,9 @@ Nel creare questi ultimi due tasti li ho annidati per fare una prova di come si 
 
 Puoi usare il counter a questo [Link](https://mattiaprincipe.github.io/counter/)
 
+
+
+
 # Altri Progetti
 
 Durante gli studi ho partecipato attivamente a due progetti:
